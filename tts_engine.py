@@ -58,7 +58,7 @@ def generate_speech(text, language, slow):
         )
 
     except Exception as e:
-        # Fallback security wrap forcing the dark purple text color
+        
         return None, (
             f"<div style='{base_style} background: #FEF2F2; border: 1px solid #EF4444;'>"
             f"  <span style='color: #4C1D95 !important;'>❌ Error generating speech: {str(e)}</span>"

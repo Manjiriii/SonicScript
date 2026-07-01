@@ -1,3 +1,2 @@
-Requirements:
-1. gradio
-2. gTTS
+gradio
+gtts

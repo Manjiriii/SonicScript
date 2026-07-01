@@ -2,8 +2,8 @@ custom_css = """
 /* ==========================================================================
    Gradio 6 Theme & Background Overrides
    ========================================================================== */
-/* Targets the absolute root background wrapper to enforce light lavender */
-.gradio-container, 
+
+.gradio-container,
 .gradio-container-6-19-0,
 div[data-testid="trigger-button"] {
     background: #F8F5FF !important;
@@ -14,6 +14,7 @@ div[data-testid="trigger-button"] {
 /* ==========================================================================
    Hero Header Section
    ========================================================================== */
+
 .hero {
     background: linear-gradient(135deg, #7C3AED, #A855F7, #EC4899) !important;
     color: white !important;
@@ -37,9 +38,14 @@ div[data-testid="trigger-button"] {
 }
 
 /* ==========================================================================
-   Cards & Layout Panels 
+   Cards & Layout Panels
    ========================================================================== */
-.card, .side-card, .languages, .gradio-block, .type-row {
+
+.card,
+.side-card,
+.languages,
+.gradio-block,
+.type-row {
     background: white !important;
     background-color: white !important;
     border-radius: 20px !important;
@@ -48,7 +54,8 @@ div[data-testid="trigger-button"] {
     border: none !important;
 }
 
-.side-panel h2, .languages h3 {
+.side-panel h2,
+.languages h3 {
     color: #7C3AED !important;
     margin-bottom: 15px !important;
     font-weight: 700 !important;
@@ -57,26 +64,29 @@ div[data-testid="trigger-button"] {
 /* ==========================================================================
    Interactive Buttons
    ========================================================================== */
-button, .gr-button {
+
+button,
+.gr-button {
     border-radius: 12px !important;
     transition: all 0.3s ease !important;
 }
 
-button:hover, .gr-button:hover {
+button:hover,
+.gr-button:hover {
     transform: translateY(-2px) !important;
     box-shadow: 0 5px 15px rgba(124, 58, 237, 0.2) !important;
 }
 
 /* ==========================================================================
-   Custom Chips & Lists 
+   Language Chips & Feature Lists
    ========================================================================== */
+
 .chip-container {
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 12px !important;
     justify-content: center !important;
 }
-
 
 .chip {
     display: inline-flex !important;
@@ -90,7 +100,7 @@ button:hover, .gr-button:hover {
     font-weight: 600 !important;
     font-size: 15px !important;
     border: 1px solid #D8B4FE !important;
-    opacity: 1 !important; /* Overrides Gradio 6 faded state */
+    opacity: 1 !important;
     visibility: visible !important;
     transition: all 0.3s ease !important;
     cursor: default !important;
@@ -125,8 +135,9 @@ button:hover, .gr-button:hover {
 }
 
 /* ==========================================================================
-   Text Utilities & Structural Elements
+   Counters & Footer
    ========================================================================== */
+
 .counter {
     color: #7C3AED !important;
     font-size: 15px !important;
@@ -148,8 +159,9 @@ hr {
 }
 
 /* ==========================================================================
-   Status Notifications 
+   Status Notifications
    ========================================================================== */
+
 .status-message {
     padding: 12px !important;
     margin-top: 10px !important;
@@ -161,14 +173,12 @@ hr {
 
 .success {
     background: #ECFDF5 !important;
-    background-color: #ECFDF5 !important;
     color: #6D28D9 !important;
     border: 1px solid #10B981 !important;
 }
 
 .error {
     background: #FEF2F2 !important;
-    background-color: #FEF2F2 !important;
     color: #4C1D95 !important;
     border: 1px solid #EF4444 !important;
 }

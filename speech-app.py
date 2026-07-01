@@ -212,7 +212,6 @@ with gr.Blocks(
     gr.HTML(
         """
         <div class="footer">
-            Made with Python • Gradio • Google Text-to-Speech (gTTS)
         </div>
         """
     )
